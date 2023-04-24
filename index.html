@@ -20,16 +20,16 @@
         Want more details?</a>
     </header>
     <main class="main">
-      <section id="task-add">
-        <label class="label" for="new-task">Add Item</label>
-        <div class="task-wrapper">
-          <input id="new-task" class="task" type="text">
-          <button class="button">Add</button>
+      <section class="section section-add">
+        <label class="section-add__label label" for="new-task">Add Item</label>
+        <div class="section-add__task-wrapper">
+          <input id="new-task" class="task-wrapper__task task input" type="text">
+          <button class="button task-wrapper__button">Add</button>
         </div>
       </section>
       <section class="task-todo">
-        <h3 class="main__title">Todo</h3>
-        <ul class="task-list" id="incomplete-tasks">
+        <h3 class="task-todo__title title">Todo</h3>
+        <ul class="task-todo__list task-list" id="incomplete-tasks">
           <li class="task-list__item">
             <input class="input" type="checkbox">
             <label class="task label">Pay Bills</label>
@@ -51,7 +51,7 @@
         </ul>
       </section>
       <section class="task-completed">
-        <h3 class="main__title">Completed</h3>
+        <h3 class="task-completed__title title">Completed</h3>
         <ul class="task-list" id="completed-tasks">
           <li class="task-list__item">
             <input type="checkbox" class="input" checked>
